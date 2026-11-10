@@ -81,11 +81,15 @@ cd C:\emg\mandro-pc-app
 
 ### 2-5. Adafruit 라이브러리 설치
 
-펌웨어 컴파일에 필요합니다. `setup.bat`이 설치하지 않으므로 따로 실행합니다.
+별도 설치 과정은 필요하지 않습니다.
 
-```powershell
-arduino-cli lib install "Adafruit NeoPixel" "Adafruit Unified Sensor" "Adafruit BNO055"
-```
+setup.bat 실행 시 필요한 Adafruit 라이브러리의 설치 여부를 자동으로 확인하며, 설치되지 않은 라이브러리는 자동으로 설치합니다.
+
+설치 대상:
+
+- Adafruit NeoPixel
+- Adafruit Unified Sensor
+- Adafruit BNO055
 
 ### 2-6. USB 연결 확인
 
